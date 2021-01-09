@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CreateRoomPage from "./CreateRoomPage";
+import CreateRoomPage from "./CreateRoomPage.js";
 import RoomJoinPage from "./RoomJoinPage";
 import {
   BrowserRouter as Router,

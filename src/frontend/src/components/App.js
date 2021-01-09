@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import CreateRoomPage from "./CreateRoomPage";
 import HomePage from "./HomePage";
-import RoomJoinPage from "./RoomJoinPage";
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,6 +19,7 @@ export default class App extends Component {
     return (
       <div>
         <HomePage/>
+        
       </div>
     );
   }
